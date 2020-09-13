@@ -1,0 +1,48 @@
+div.header{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: black;
+    float: left;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+div.all{
+    width: 100%;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+div.cars{
+    width: 50%;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+div.car{
+    width: 100%;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+div.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div.col {
+
+    width: 100%; /* Ширина блока */
+
+    font-size: 1.5em; /* Размер шрифта */
+    word-wrap: break-word; /* Перенос слов */
+}
